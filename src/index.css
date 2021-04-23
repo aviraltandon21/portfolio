@@ -48,6 +48,12 @@ body {
     background-size: cover;
     position: relative;
   }
+
+  .load {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   
   img {
     display: block;
