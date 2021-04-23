@@ -1,8 +1,6 @@
 import Header from './components/Header'; 
 import Hero from './components/Hero';
 import React,{useState,useEffect} from 'react';
-import { css } from "@emotion/core";
-import HashLoader from "react-spinners/HashLoader";
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
