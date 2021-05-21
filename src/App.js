@@ -5,7 +5,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Load from './components/Load';
-
+import Footer from './components/Footer';
 
 function App() {
   const [ loading,Setloading] = useState(true);
@@ -27,6 +27,7 @@ function App() {
           <Project />
           <Skill />
           <Contact />
+          <Footer/>
         </main>
         </>
     }
