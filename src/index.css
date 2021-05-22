@@ -105,3 +105,12 @@ body {
       }
    
   }
+
+  h5 {
+    background-color: #8e9ffa;
+    background-image: linear-gradient(45deg, #8e9ffa 0%, #f874ef 10%, #ffcc70 29%, #ffffff 100%);
+  
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
