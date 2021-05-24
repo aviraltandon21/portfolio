@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
 
         <div className='bg-gray px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg shadow-lg  justify-between w-full  md:w-6/12 '>
-          <form className='flex flex-col space-y-3 m-auto w-full' name='contact' method='post' data-netlify="true">
+          <form className='flex flex-col space-y-3 m-auto w-full' name="contact" method="POST" data-netlify="true">
             <input type='hidden' name='form-name' value='contact' />
 
             <label htmlFor='name'>Name</label>
