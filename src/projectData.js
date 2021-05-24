@@ -32,12 +32,12 @@ const projects = [
       link: 'http://litmus-app.herokuapp.com/litmus/signup/?next=/litmus/',
     },
     {
-      title: 'Weather Finder',
-      image: '../images/projects/weather.png',
-      description: 'A simple app made in ReactJS for finding the weather conditions of given input location',
-      tools: ['HTML', 'CSS', 'React JS'],
-      github: 'https://github.com/aviraltandon21/weatherapp',
-      link: 'https://vigorous-ritchie-4dfabe.netlify.app/',
+      title: 'Buzz News',
+      image: '../images/projects/buzznews.png',
+      description: 'A simple app made in ReactJS for fetching news category wise. Also with button to toggle between dark and light mode.',
+      tools: ['HTML', 'CSS', 'React JS','Bootstrap'],
+      github: 'https://github.com/aviraltandon21/buzznews',
+      link: 'https://buzznews.netlify.app/',
     },
 ];
 export default projects;
