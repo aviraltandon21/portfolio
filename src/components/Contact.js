@@ -1,7 +1,12 @@
 import React from 'react';
 import Contactlottie from './Contactlottie'
+import { useForm } from '@formspree/react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mnqldawk");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
   return (
     <section className='my-28' id='contact'>
       <header className='px-5 text-2xl font-bold pt-10'>
@@ -63,7 +68,7 @@ const Contact = () => {
         </div>
 
         <div className='bg-gray px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg shadow-lg  justify-between w-full  md:w-6/12 '>
-          <form className='flex flex-col space-y-3 m-auto w-full' name="contact" method="POST" data-netlify="true">
+          <form className='flex flex-col space-y-3 m-auto w-full' name="contact" method="POST" onSubmit={handleSubmit}>
           <input type="hidden" name="form-name" value="contact"/>
             
             <label htmlFor="name">Name</label>
@@ -72,7 +77,7 @@ const Contact = () => {
             <input type="email" name="email" id='email' className='gradient pl-1 pr-1' required></input>
             <label htmlFor="message">Message</label>
             <textarea name="message" id='message' cols='25' rows='5' className='gradient pl-1 pr-1' required></textarea>
-            <button type="submit" className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md hover:bg-purple-500'>
+            <button type="submit" className='border border-gray-500 p-2 rounded-lg w-auto mr-auto shadow-md hover:bg-purple-500' disabled={state.submitting}>
               Send Message
             </button>
           </form>
