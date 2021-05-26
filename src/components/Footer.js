@@ -2,9 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="footer">
-        <h4 className="footer__head">Designed and Developed by Aviral Tandon</h4>
-        </div>
+        <footer className="Footer">
+        <p className="Footer__copyright">
+          &copy; 2021 <span>Aviral Tandon</span>
+        </p>
+        <p className="Footer__message">
+          <strong className="Footer__bold">&lt;/&gt;</strong> with{" "}
+          <span className="Footer__bold">🧡</span>
+        </p>
+      </footer>
     )
 }
 
