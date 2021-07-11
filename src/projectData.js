@@ -1,5 +1,29 @@
 const projects = [
     {
+      title: 'Chatify',
+      image: './images/projects/chatify.png',
+      description: 'A slack based chat application. Make channels and connect with your friends.',
+      tools: ['HTML', 'CSS', 'React JS','Firebase'],
+      github: 'https://github.com/aviraltandon21/Chatify',
+      link: 'https://chatify-4150c.web.app/',
+    },
+    {
+      title: 'Smart MovieDB',
+      image: './images/projects/smartmoviedb.png',
+      description: 'Voice controlled movie database application. Now you can get details of your favorite movies through interactive voice commands.',
+      tools: ['HTML', 'CSS', 'React JS','Alan AI'],
+      github: 'https://github.com/aviraltandon21/smart_movie_db',
+      link: 'https://smart-moviedb.netlify.app/',
+    },
+    {
+      title: 'Digi Catalog',
+      image: './images/projects/digicatalog.png',
+      description: 'A fully functional ECommerce application',
+      tools: ['React JS', 'Express', 'Mongo DB','Node JS'],
+      github: 'https://github.com/aviraltandon21/Digi-Catalog',
+      link: 'http://digicatalog.herokuapp.com/',
+    },
+    {
       title: 'Scripture',
       image: './images/projects/scripture.jpg',
       description: 'Tired of writing in pen and paper all day ? Here is a full fledged web application for creating and storing personal notes',
@@ -14,30 +38,6 @@ const projects = [
       tools: ['HTML', 'CSS', 'React JS'],
       github: 'https://github.com/aviraltandon21/quizapp',
       link: 'https://aviraltandon21.github.io/quizapp/',
-    },
-    {
-      title: 'Movie DB',
-      image: '../images/projects/moviedb.png',
-      description: 'A simple movie database app made in React JS. Now find the details of all your favourite movies at one place',
-      tools: ['HTML', 'CSS', 'React JS'],
-      github: 'https://github.com/aviraltandon21/Movie-Database',
-      link: 'https://github.com/aviraltandon21/Movie-Database',
-    },
-    {
-      title: 'Litmus',
-      image: '../images/projects/litmus.png',
-      description: 'A full fledged web application , for saving daily/weekly/monthly notes , accounts , records like a personal diary. You can also view your friends public notes',
-      tools: ['HTML', 'CSS', 'JavaScript', 'Django'],
-      github: 'https://github.com/aviraltandon21/Litmus_Frontend',
-      link: 'http://litmus-app.herokuapp.com/litmus/signup/?next=/litmus/',
-    },
-    {
-      title: 'Buzz News',
-      image: '../images/projects/buzznews.png',
-      description: 'A simple app made in ReactJS for fetching news category wise. Also with button to toggle between dark and light mode.',
-      tools: ['HTML', 'CSS', 'React JS','Bootstrap'],
-      github: 'https://github.com/aviraltandon21/buzznews',
-      link: 'https://buzznews.netlify.app/',
     },
 ];
 export default projects;
