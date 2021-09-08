@@ -35,6 +35,10 @@ const Skill = () => {
           <img src='./images/icons/mongodb-icon.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           MongoDB
         </div>
+        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='Gatsby JS'>
+          <img src='./images/icons/gatsbyjs-icon.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
+          Gatsby JS
+        </div>
         <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='PHP'>
           <img src='./images/icons/php.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           PHP

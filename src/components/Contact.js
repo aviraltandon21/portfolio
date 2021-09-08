@@ -1,11 +1,12 @@
 import React from 'react';
 import Contactlottie from './Contactlottie'
 import { useForm } from '@formspree/react';
+import ContactSuccess from './ContactSuccess';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mnqldawk");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <ContactSuccess/>;
   }
   return (
     <section className='my-28' id='contact'>
