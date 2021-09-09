@@ -13,6 +13,19 @@ function App() {
    setTimeout(() => {
     Setloading(false)
    },4000)
+
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "75db8808-531d-43a0-88b8-9d845a321615";
+
+    (function() {
+      var d = document;
+      var s = d.createElement("script");
+
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+
   },[])
   return (
     <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
