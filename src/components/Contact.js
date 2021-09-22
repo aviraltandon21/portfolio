@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'
 import Contactlottie from './Contactlottie'
 import { useForm } from '@formspree/react';
 import ContactSuccess from './ContactSuccess';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mnqldawk");
+ 
   if (state.succeeded) {
       return <ContactSuccess/>;
   }
