@@ -113,4 +113,15 @@ body {
     color: #ed6a5a;
     margin: auto 5px;
  }
+
+ .form-submitted {
+   margin-left: 40%;
+   width: 200px;
+   height: 200px;
+ }
   
+ @media screen and (max-width:600px) {
+   .form-submitted {
+     margin-left: 25%;
+   }
+ }

@@ -9,15 +9,15 @@ const ContactSuccess = () => {
       Lottie.loadAnimation({
         container: container.current,
         renderer: 'svg',
-        loop: true,
+        loop: false,
         autoplay: true,
-        animationData: require('./tick.json'),
+        animationData: require('./form-submitted.json'),
       });
       animate.setSpeed(0.5);
     }, []);
   
     return (
-          <div className='container' ref={container}></div>
+          <div className='container form-submitted' ref={container}></div>
     );
   };
   
