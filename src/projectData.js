@@ -3,9 +3,9 @@ const projects = [
       title: 'Chatify',
       image: './images/projects/chatify.png',
       description: 'A slack based chat application. Make channels and connect with your friends.',
-      tools: ['HTML', 'CSS', 'React JS','Firebase'],
+      tools: ['React JS','Firebase','Semantic UI'],
       github: 'https://github.com/aviraltandon21/Chatify',
-      link: 'https://chatify-4150c.web.app/',
+      link: 'https://chatify-2-7b036.web.app/',
     },
     {
       title: 'Smart MovieDB',
