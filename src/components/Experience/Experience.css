@@ -1,0 +1,126 @@
+.project {
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin:80px 0;
+    display: flex;
+
+}
+.project__basicInfo {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 40%;
+    margin:-20px 0;
+    margin-right: -50px;
+    border: 3px solid #242429;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.project__detail{
+    background: #242429;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.project__title{
+    color: #aeaeb7;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 15px 0;
+}
+.project__langs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project__lang {
+    border: 2px solid #93939f;
+    /* color: #93939f; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.project__desc {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #93939f;
+}
+.project__links {
+    margin: 10px 0 10px 0;
+    font-size: 1.2rem;
+}
+
+
+
+
+.tape {
+    background-color: hsla(0,0%,100%,.2);
+    box-shadow: inset 0 0 1em .5em hsla(0,0%,100%,.1);
+    height: 2.8em;
+    position: absolute;
+    transform: rotate(-30deg);
+    width: 9em;
+    -webkit-filter: drop-shadow(0 1px 1px hsla(0,0%,0%,.3));
+  }
+  .tape:after,
+  .tape:before {
+    background-size: .4em .4em;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    
+    top: 0;
+    width: .2em;
+  }
+  .tape:after {
+    background-image: linear-gradient(45deg, transparent 50%, hsla(0,0%,100%,.3) 50%),
+                      linear-gradient(-45deg, transparent 50%, hsla(0,0%,100%,.3) 50%);
+    background-position: 0 100%;
+    left: -.2em;
+  }
+  .tape:before {
+    background-image: linear-gradient(135deg, transparent 50%, hsla(0,0%,100%,.3) 50%),
+                      linear-gradient(-135deg, transparent 50%, hsla(0,0%,100%,.3) 50%);
+    background-position: 100% 100%;
+    right: -.2em;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .project {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .project__basicInfo {
+        width: 100%;
+        padding: 15px;
+    }
+    .project__detail {
+      width: 100%;
+      padding:15px;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .project__title {
+        font-size: 1.5rem;
+    }
+    .project__desc {
+        font-size: 0.8rem;
+    }
+}

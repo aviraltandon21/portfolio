@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Load from './components/Load';
 import Footer from './components/Footer';
+import ExperienceData from './ExperienceData';
 
 function App() {
   const [ loading,Setloading] = useState(true);
@@ -39,6 +40,7 @@ function App() {
           <Hero />
           <Project />
           <Skill />
+          <ExperienceData/>
           <Contact />
           <Footer/>
         </main>

@@ -1,6 +1,8 @@
 import React from 'react';
 import projects from '../projectData';
 import { FaLink,FaGithub } from "react-icons/fa";
+import Circle from './Circle';
+import Text from 'react-svg-text';
 const mystyle = {
   width: '32px',
   height: '32px',
@@ -15,9 +17,25 @@ const Project = () => {
   return (
     <>
       <article className='my-28 px-5' id='projects'>
-        <header className='text-2xl font-bold pt-10'>
+      <header className='text-2xl font-bold pt-10'>
           <h2>Projects</h2>
-        </header>
+      </header>
+      {/* <Circle>
+        
+      </Circle> */}
+      {/* <header className='text-2xl font-bold pt-10 circle-sketch-highlight'>
+          <h2 className='circle-sketch-highlight'>Projects</h2>
+      </header> */}
+      {/* <Circle>
+        <Text verticalAnchor="start" x="100" y="100">Helloo</Text>
+      </Circle> */}
+      {/* <div style={{position: "relative"}}>
+        <Circle>
+          <div style={{position: "absolute"}}>
+            <text style={{fontColor: "white", left: "100px",right: "100px"}}>Projects</text>
+          </div>
+        </Circle>
+      </div> */}
         <div className='my-7 space-y-24'>
           {projects.map((project, index) => (
             <div className='flex flex-wrap md:justify-between md:items-center' key={index}>
