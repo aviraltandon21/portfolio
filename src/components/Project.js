@@ -3,6 +3,7 @@ import projects from '../projectData';
 import { FaLink,FaGithub } from "react-icons/fa";
 import Circle from './Circle';
 import Text from 'react-svg-text';
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 const mystyle = {
   width: '32px',
   height: '32px',
@@ -17,8 +18,11 @@ const Project = () => {
   return (
     <>
       <article className='my-28 px-5' id='projects'>
+      
       <header className='text-2xl font-bold pt-10'>
-          <h2>Projects</h2>
+      
+          <h2><RoughNotation type="circle" show="true" color='blue' animationDuration='2000' padding={[15, 12, 15, 12]}>Projects</RoughNotation></h2>
+      
       </header>
       {/* <Circle>
         

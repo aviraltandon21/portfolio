@@ -2,6 +2,7 @@ import React from 'react'
 import Contactlottie from './Contactlottie'
 import { useForm } from '@formspree/react';
 import ContactSuccess from './ContactSuccess';
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mnqldawk");
@@ -11,10 +12,14 @@ const Contact = () => {
   }
   return (
     <section className='my-28' id='contact'>
+    
       <header className='px-5 text-2xl font-bold pt-10'>
+      
         <h2>Contact Me</h2>
-        <p className='text-base font-thin'>I'd love to hear your thoughts!</p>
+        <p className='text-base font-thin'><RoughNotation type="box" show="true" color='#00FFFF' animationDuration='2000' order={1} padding={[25, 20, 45, 20]}>I'd love to hear your thoughts!</RoughNotation></p>
+     
       </header>
+      
       <div className='md:mx-6 flex flex-col flex-wrap md:flex-row justify-between'>
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
@@ -24,9 +29,11 @@ const Contact = () => {
               aviraltandon20@gmail.com
             </a>
           </div>
+          
           <a className='border-b-2 mt-3 inline-block border-gray-500 hover:text-red-300' href='./resume.pdf' target='_blank' rel='noreferrer'>
             Resume
           </a>
+          
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
               <a href='https://www.linkedin.com/in/aviral-tandon-b852891a1/' target='_blank' rel='noreferrer'>

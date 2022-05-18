@@ -1,11 +1,13 @@
 import React from 'react';
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Skill = () => {
   return (
     <>
+    <RoughNotationGroup show={true}>
     <section className='my-28  px-5' id='skill'>
       <header className='text-2xl font-bold pt-10'>
-        <h2>Languages & Frameworks</h2>
+        <h2><RoughNotation type="box" show="true" color='red' animationDuration='2000' padding={[15, 10, 15, 10]} order="2">Languages & Frameworks</RoughNotation></h2>
       </header>
       <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6'>
         <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='HTML 5'>
@@ -68,9 +70,11 @@ const Skill = () => {
       </div>
     </section>
 
-    <section style={{marginTop: "-100px"}} className='my-28  px-5' id='skill'>
+    
+
+    <section style={{marginTop: "-80px"}} className='my-28  px-5' id='skill'>
       <header className='text-2xl font-bold pt-10'>
-        <h2>Tools & Technologies</h2>
+        <h2><RoughNotation type="box" show="true" color='red' animationDuration='2000' order={1} padding={[25, 20, 45, 20]}>Tools & Technologies</RoughNotation></h2>
       </header>
       <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6'>
         <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='Git'>
@@ -96,6 +100,7 @@ const Skill = () => {
         
       </div>
     </section>
+    </RoughNotationGroup>
     </>
   );
 };
