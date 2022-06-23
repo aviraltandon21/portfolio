@@ -13,7 +13,7 @@ const Load = () => {
         autoplay: true,
         animationData: require('./loading.json'),
       });
-      animate.setSpeed(0.5);
+      animate.setSpeed(1.0);
     }, []);
   
     return (

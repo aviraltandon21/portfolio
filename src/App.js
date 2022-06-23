@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
    setTimeout(() => {
     Setloading(false)
-   },4000)
+   },2000)
 
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "75db8808-531d-43a0-88b8-9d845a321615";

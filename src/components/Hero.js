@@ -25,7 +25,7 @@ const Hero = () => {
       <div className='max-w-md mb-auto space-y-5'>
         <h1 className='text-5xl font-bold md:text-7xl'>Hello. I’m Aviral Tandon</h1>
         <p className='tracking-wide leading-relaxed' style={{fontSize:'18px'}}>
-        <RoughNotation type="highlight" show="true" color='orange' iterations={100} animationDuration='2000'>Third year undergrad</RoughNotation>  at Indian Insitute Of Information Technology, Vadodara pursuing B.Tech in CSE.<br/> I'm  <RoughNotation type="highlight" show="true" color='orange' iterations={100} animationDuration='2000'>passionate</RoughNotation> about web development. I'm always ready to challenge myself and explore new areas of work.<br/> I never stop learning and for me, each new project is another <RoughNotation type="highlight" show="true" color='orange' iterations={100} animationDuration='2000'>adventure.</RoughNotation>{' '}
+        Final year undergrad at Indian Insitute Of Information Technology, Vadodara pursuing B.Tech in CSE.<br/> I'm passionate about web development. I'm always ready to challenge myself and explore new areas of work.<br/> I never stop learning and for me, each new project is another adventure.{' '}
         </p>
       </div>
     </section>
