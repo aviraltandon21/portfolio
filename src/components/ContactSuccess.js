@@ -13,7 +13,7 @@ const ContactSuccess = () => {
         autoplay: true,
         animationData: require('./form-submitted.json'),
       });
-      animate.setSpeed(0.5);
+      animate.setSpeed(2.0);
     }, []);
   
     return (

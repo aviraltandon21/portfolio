@@ -8,20 +8,20 @@ const projects = [
       link: 'https://chatify-2-7b036.web.app/',
     },
     {
-      title: 'Smart MovieDB',
-      image: './images/projects/smartmoviedb.png',
-      description: 'Voice controlled movie database application. Now you can get details of your favorite movies through interactive voice commands.',
-      tools: ['HTML', 'CSS', 'React JS','Alan AI'],
-      github: 'https://github.com/aviraltandon21/smart_movie_db',
-      link: 'https://smart-moviedb.netlify.app/',
-    },
-    {
       title: 'Digi Catalog',
       image: './images/projects/digicatalog.png',
       description: 'A fully functional ECommerce application',
       tools: ['React JS', 'Express', 'Mongo DB','Node JS'],
       github: 'https://github.com/aviraltandon21/Digi-Catalog',
       link: 'http://digicatalog.herokuapp.com/',
+    },
+    {
+      title: 'Smart MovieDB',
+      image: './images/projects/smartmoviedb.png',
+      description: 'Voice controlled movie database application. Now you can get details of your favorite movies through interactive voice commands.',
+      tools: ['HTML', 'CSS', 'React JS','Alan AI'],
+      github: 'https://github.com/aviraltandon21/smart_movie_db',
+      link: 'https://smart-moviedb.netlify.app/',
     },
     {
       title: 'Scripture',

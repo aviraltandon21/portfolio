@@ -1,6 +1,6 @@
 import React from 'react';
 import Experience from './components/Experience/Experience';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+
 
 function ExperienceData() {
     return (
@@ -8,7 +8,7 @@ function ExperienceData() {
         <section className='my-28  px-5' id='experience'>
         <div className='experiences'>
         <header className='text-2xl font-bold pt-10'>
-            <h2><RoughNotation type="bracket" show="true" color='green' animationDuration='2000' padding={[5, 5, 25, 5]}  strokeWidth="2" brackets={['left','right']}>Experience</RoughNotation></h2>
+            <h2>Experience</h2>
         </header>
            
             <div className="experiences__experienceCont">

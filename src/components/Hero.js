@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
 import animate from 'lottie-web';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Hero = () => {
   const container = useRef(null);
