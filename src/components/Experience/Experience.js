@@ -11,7 +11,7 @@ const Experience = ({title,desc,companyname,link,date}) => {
        <div className="project__basicInfo ">
             <h2 className="project__title">{title}</h2>
             <div className="project__langs">
-                <span className="project__lang hover:bg-purple-500"><a href={link}>{companyname}</a></span>
+                <span className="project__lang hover:bg-purple-500"><a href={link} target="_blank">{companyname}</a></span>
             </div>
             <div className='project__links'>
             <span>{date}</span>
