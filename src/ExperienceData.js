@@ -14,7 +14,7 @@ function ExperienceData() {
             <div className="experiences__experienceCont">
         
             
-               <Experience title="Digital Technology<br> Intern" 
+               <Experience title="Digital Technology    Intern" 
               desc="<ul>
   <li>Working with the Grid Engineering Team on UTA Project</li>
   <li>Frontend Development with Angular to create UI</li>
