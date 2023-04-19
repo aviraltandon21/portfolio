@@ -12,6 +12,18 @@ function ExperienceData() {
         </header>
            
             <div className="experiences__experienceCont">
+        
+            
+               <Experience title="Digital Technology Intern" 
+              desc="<ul>
+  <li>Working with the Grid Engineering Team on UTA Project</li>
+  <li>Frontend Development with Angular to create UI</li>
+  <li>Collaborating with team members to ensure product’s efficiency</li>
+</ul>"
+              companyname="General Electric(GE) Digital"
+              link="https://www.ge.com/digital/" 
+              date="Jan 2023 - Present"
+              />
 
               <Experience title="Software Developer Intern" 
               desc="<ul>
