@@ -36,16 +36,7 @@ function ExperienceData() {
               date="June 2021 - July 2021"
               />
 
-              <Experience title="Frontend Developer Intern"
-              desc="<ul>
-  <li>Co-ordinated with front end team in development</li>
-  <li>Revamped user friendly web pages in React JS</li>
-  <li>Built reusable code and libraries for future use</li>
-</ul>"
-              companyname="MissonEd" 
-              link="https://missioned-forum.web.app/welcome"
-              date="July 2020 - Aug 2020"
-              />
+              
             </div>
         </div>
         </section>
