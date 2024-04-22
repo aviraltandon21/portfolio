@@ -14,15 +14,21 @@ function ExperienceData() {
             <div className="experiences__experienceCont">
         
             
-               <Experience title="Digital Technology    Intern" 
+               <Experience title="Software Engineer Specialist" 
               desc="<ul>
-  <li>Working with the Grid Engineering Team on UTA Project</li>
-  <li>Frontend Development with Angular to create UI</li>
-  <li>Collaborating with team members to ensure product’s efficiency</li>
+  <li>Collaborating with the Grid Engineering Team on the Unbundled
+  Transmission Applications (UTA) project.</li>
+  <li>Specialized in Angular as a member of the UI Team, utilizing
+  configuration files to develop application displays.</li>
+  <li>Developed custom components and wrote optimized queries, leading
+  to a 30% improvement in application functionality and performance.</li>
+  <li>Contributed significantly to the first Alpha Release of the project by
+  fixing 50+ bugs and implementing performance enhancements,
+  resulting in a 40% reduction in reported issues during testing phase.</li>
 </ul>"
               companyname="General Electric(GE) Digital"
               link="https://www.ge.com/digital/" 
-              date="Jan 2023 - Present"
+              date="Aug 2023 - Present"
               />
 
               <Experience title="Software Developer Intern" 
@@ -36,19 +42,6 @@ function ExperienceData() {
               link="https://nxtbig.com/" 
               date="Aug 2021 - Oct 2021"
               />
-
-              <Experience title="Web Developer Intern"
-              desc="<ul>
-  <li>Developed Home Page and fully functional course page</li>
-  <li>Integrated data from various back-end services and databases</li>
-  <li>Ensured cross-platform optimization for mobile phones</li>
-</ul>"
-              companyname="Goseeko" 
-              link="https://www.goseeko.com/"
-              date="June 2021 - July 2021"
-              />
-
-              
             </div>
         </div>
         </section>

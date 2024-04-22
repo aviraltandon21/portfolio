@@ -22,8 +22,8 @@ const Contact = () => {
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>Aviral Tandon</p>
-            <p className='font-thin'>Lakhimpur , Uttar Pradesh</p>
-            <a href='mailto: aviraltandon20@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500 hover:text-red-300'>
+            <p className='font-thin'>Hyderabad, Telangana</p>
+            <a href='mailto: aviraltandon27@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500 hover:text-red-300'>
               aviraltandon20@gmail.com
             </a>
           </div>
@@ -50,27 +50,6 @@ const Contact = () => {
                 </span>
               </a>
             </div>
-
-            <div className='mr-4'>
-              <a href='https://twitter.com/AviralTandon5' target='_blank' rel='noreferrer'>
-                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm hover:bg-purple-500'>
-                  <img src='./images/icons/twitter-24.png' alt='' width='24px' height='24px' className='mr-1' />
-                 
-                  Twitter
-                </span>
-              </a>
-            </div>
-
-            <div className='mr-4'>
-              <a href='https://www.instagram.com/aviral_tandon/' target='_blank' rel='noreferrer'>
-                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm hover:bg-purple-500'>
-                  <img src='./images/icons/instagram-24.png' alt='' width='24px' height='24px' className='mr-1' />
-                  Instagram
-                </span>
-              </a>
-            </div>
-
-            
           </div>
         </div>
 
@@ -100,7 +79,7 @@ const Contact = () => {
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>Aviral Tandon</p>
-            <p className='font-thin'>Lakhimpur , Uttar Pradesh</p>
+            <p className='font-thin'>Hyderabad, Telangana</p>
             <a href='mailto: aviraltandon20@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500 hover:text-red-300'>
               aviraltandon20@gmail.com
             </a>
@@ -128,27 +107,6 @@ const Contact = () => {
                 </span>
               </a>
             </div>
-
-            <div className='mr-4'>
-              <a href='https://twitter.com/AviralTandon5' target='_blank' rel='noreferrer'>
-                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm hover:bg-purple-500'>
-                  <img src='./images/icons/twitter-24.png' alt='' width='24px' height='24px' className='mr-1' />
-                 
-                  Twitter
-                </span>
-              </a>
-            </div>
-
-            <div className='mr-4'>
-              <a href='https://www.instagram.com/aviral_tandon/' target='_blank' rel='noreferrer'>
-                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm hover:bg-purple-500'>
-                  <img src='./images/icons/instagram-24.png' alt='' width='24px' height='24px' className='mr-1' />
-                  Instagram
-                </span>
-              </a>
-            </div>
-
-            
           </div>
         </div>
 
