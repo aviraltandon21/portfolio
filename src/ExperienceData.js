@@ -33,9 +33,12 @@ function ExperienceData() {
 
               <Experience title="Software Developer Intern" 
               desc="<ul>
-  <li>Developed Knowledge Base website using GatsbyJS and Strapi</li>
-  <li>Designed whole schema for website in Strapi</li>
-  <li>Fixed bugs and added new reusable components</li>
+  <li>Developed a comprehensive Knowledge Base website utilizing
+  GatsbyJS and Strapi, ensuring seamless information dissemination
+  and accessibility.</li>
+  <li>Implemented critical bug fixes and integrated new, reusable
+  components within the GatsbyJS framework, enhancing the
+  platform’s functionality and user experience.</li>
   <li>Revamped the whole UI of the website using Material UI</li>
 </ul>"
               companyname="NxtBigs Software Labs"
