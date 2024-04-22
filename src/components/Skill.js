@@ -21,10 +21,6 @@ const Skill = () => {
           <img src='./images/icons/javascript-original.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           Javascript
         </div>
-        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='JQuery'>
-          <img src='./images/icons/jquery.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
-          JQuery
-        </div>
         <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='React Js'>
           <img src='./images/icons/react-original.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           React JS
@@ -57,15 +53,6 @@ const Skill = () => {
           <img src='./images/icons/tailwind-css.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
           Tailwind CSS
         </div>
-        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='PHP'>
-          <img src='./images/icons/php.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
-          PHP
-        </div>
-        <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='Flutter'>
-          <img src='./images/icons/flutter_logo.svg' alt='' loading='lazy' className='w-16 mb-1' width='64px' height='64px' />
-          Flutter
-        </div>
-        
       </div>
     </section>
 

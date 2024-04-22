@@ -24,7 +24,7 @@ const Contact = () => {
             <p className='font-bold'>Aviral Tandon</p>
             <p className='font-thin'>Hyderabad, Telangana</p>
             <a href='mailto: aviraltandon27@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500 hover:text-red-300'>
-              aviraltandon20@gmail.com
+              aviraltandon27@gmail.com
             </a>
           </div>
           
